@@ -24,7 +24,8 @@ export default function Hero() {
         Frontend Developer
       </h2>
     </header>
-    <p className='text-base sm:text-lg md:text-gray-200 mb-6'>about myself i think</p>
+    <p className='text-base sm:text-lg md:text-gray-200 mb-6'>who turns ideas into interactive web experiences.
+    Explore my work, skills, and journey below.</p>
     <div className='flex items-center space-x-4 mb-6'>
       <a href="https://www.linkedin.com/in/bill-earnest/" target='_blank' className="transition-transform duration-300 hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(34,139,34,0.6)]">
         <img src={linkedin} alt="linkedin" className="w-11 h-11" />
