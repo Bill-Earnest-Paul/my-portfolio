@@ -13,17 +13,19 @@ const skillSet=[
 ];
 
 const SkillBox=({image, title, description})=>(
-    <article className='group bg-gray-800 p-4 sm:p-6 rounded-lg shadow-lg text-center md:mt-20 hover:bg-green-900 transition-all duration-300'>
-    <figure className='flex justify-center mb-4'>
-        <img src={image} alt={title} className='h-16 sm:h-20'/>
-    </figure>
-    <header>
-        <h3 className='text-lg sm:text-xl font-semibold mb-2'>{title}</h3>
-    </header>
-    <p className='text-gray-400 text-sm sm:text-base group-hover:text-gray-100'>
-        {description}
-    </p>        
+  
+  <article className='group bg-gray-800 p-4 sm:p-6 rounded-lg shadow-lg text-center md:mt-20 hover:bg-green-900 transition-all duration-300 flex flex-col items-center justify-center'>
+  <figure className='flex justify-center mb-4'>
+      <img src={image} alt={title} className='w-20'/>
+  </figure>
+  <header>
+      <h3 className='text-lg sm:text-xl font-semibold mb-2'>{title}</h3>
+  </header>
+  <p className='text-gray-400 text-sm sm:text-base group-hover:text-gray-100'>
+      {description}
+  </p>        
 </article>
+
 
 )
 export default function Skills() {
