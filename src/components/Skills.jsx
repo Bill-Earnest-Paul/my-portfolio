@@ -1,4 +1,3 @@
-import React from 'react';
 import atom from '/atom.png';
 import java from '/java.png';
 import tailwind_pic from '/tailwind_pic.png';

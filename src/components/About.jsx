@@ -1,4 +1,3 @@
-import React from 'react'
 import spacecat from '/spacecat.png';
 import spaceguitar from '/spaceguitar.png';
 import computerpc from '/computerpc.png';

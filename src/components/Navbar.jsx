@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import {FiMenu, FiX} from 'react-icons/fi';
 export default function Navbar() {
     const [isToggle,setIsToggle]=useState(false);

@@ -1,4 +1,3 @@
-import React from 'react';
 import project1 from '/online-shopping.jpg';
 import project2 from '/cleaning-specialist.jpg';
 import project3 from '/one-page-bootstrap.jpg';
