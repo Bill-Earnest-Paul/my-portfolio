@@ -48,9 +48,7 @@ export default function About() {
         </h1>
       </header>
     <p className='text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed'>
-    Hi, I’m Bill — a passionate Software Developer with a Master's in Computer Science and a strong foundation in web development and problem-solving. I’m currently deepening my knowledge in backend development and database management to find where my skills and interests truly align.
-
-Curious, driven, and always learning, I’m on a journey to become a well-rounded developer who builds meaningful tech solutions.    </p>
+    Hi, I’m Bill — a Computer Science graduate with a Master’s degree and a strong foundation in web technologies, systems handling, and problem-solving. While I started by exploring full-stack development, I’ve now found a more focused interest in technical support and IT infrastructure roles. I'm passionate about helping users solve problems, supporting system operations, and maintaining seamless application functionality.    </p>
     <footer>
     <a href="#skills">
   <button className='inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-white hover:text-[#2e7d32] hover:scale-110 hover:shadow-[0_0_40px_rgba(46,125,50,0.7)] rounded-full text-sm sm:text-lg transition-transform duration-500 ease-in-out'>

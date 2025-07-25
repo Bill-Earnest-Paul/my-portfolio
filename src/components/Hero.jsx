@@ -20,11 +20,10 @@ export default function Hero() {
     <header>
       <h1 className='text-4xl sm:text-4xl md:text-5xl font-bold text-white mb-4'>Bill Earnest Paul</h1>
       <h2 className='text-xl sm:text-4xl md:text-2xl font-bold text-[#3e0ff4a] md:text-[#fdd835] mb-2'>
-        Frontend Developer
+        IT Support Enthusiast with a Background in Web Development
       </h2>
     </header>
-    <p className='text-base sm:text-lg md:text-gray-200 mb-6'>who turns ideas into interactive web experiences.
-    Explore my work, skills, and journey below.</p>
+    <p className='text-base sm:text-lg md:text-gray-200 mb-6'>Turning ideas into structured tech solutions and assisting users with effective problem-solving. Explore my work, technical skills, and journey below.</p>
     <div className='flex items-center space-x-4 mb-6'>
       <a href="https://www.linkedin.com/in/bill-earnest/" target='_blank' className="transition-transform duration-300 hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(34,139,34,0.6)]">
         <img src={linkedin} alt="linkedin" className="w-11 h-11" />

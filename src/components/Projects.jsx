@@ -82,7 +82,7 @@ export default function Projects() {
                     My <span className='text-green-400'>Projects</span>
                 </h1>
                 <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
-                Exploring and building through practical development.
+                Even though I’m now transitioning toward IT support, these past projects reflect my practical understanding of systems, debugging, and technical workflows.
                 </p>
             </header>
         </section>
