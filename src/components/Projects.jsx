@@ -82,7 +82,7 @@ export default function Projects() {
                     My <span className='text-green-400'>Projects</span>
                 </h1>
                 <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
-                Even though I’m now transitioning toward IT support, these past projects reflect my practical understanding of systems, debugging, and technical workflows.
+                These projects showcase the skills and practical experience I gained through hands-on work, problem-solving, and project execution.
                 </p>
             </header>
         </section>
@@ -98,6 +98,11 @@ export default function Projects() {
                 link={project.link}/>
             ))};
 
+        </section>
+        <section>
+            <header className='text-center'>
+            <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>These projects showcase the skills and practical experience I gained through hands-on work, problem-solving, and project execution.</p>
+            </header>
         </section>
     </main>
   )

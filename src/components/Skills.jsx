@@ -5,15 +5,20 @@ import nodejs_pic from '/nodejs_pic.png';
 import islandtree from '/islandtree.png';
 import keyboard from '/keyboard.png';
 import toolsbox from '/tool-box.png';
+import arImage from '/RCM.png';
+import accComImage from '/accuracy.png';
 
 const skillSet=[
-    {id:1,image:atom,title:"React js",description:"I have hands-on experience building dynamic user interfaces with React, utilizing components, hooks, and state management to create responsive and efficient web applications."},
-    {id:2,image:tailwind_pic,title:"Tailwind css",description:"While still learning, I’ve used Tailwind CSS to style projects, appreciating its utility-first approach for quick prototyping and building custom designs."},
-    {id:3,image:nodejs_pic,title:"Node js",description:"I have practical experience with Node.js, focusing on server development and various file operations, laying the foundation for further growth in backend development."},
-    {id:4,image:java,title:"Java",description:"I’ve developed a strong understanding of Java fundamentals, including object-oriented principles, and have applied it to solve algorithmic problems and build small projects."},
-    {id:5,image:keyboard,title:"Typing Speed",description: "Typing at 82 WPM with 95% accuracy helps me stay efficient in writing clean code, documentation, and professional communication — a skill that's valuable in fast-paced technical environments."},
-    {id:6,image:toolsbox,title:"Tools",description: "Comfortable using tools like Visual Studio Code, Postman, IntelliJ, and Microsoft Excel for development, debugging, and organizing data — supporting both learning and project execution."}
-];
+
+    {id:1,image:arImage,title:"Accounts Receivable",description: "TManaging claims, handling denials, and posting payments under the NATS apprenticeship program at Infinx Healthcare."},
+    {id:2,image:accComImage,title:"Accuracy & Communication",description: "Understanding healthcare RCM processes and supporting accurate and timely reimbursements, Coordinating with payers and colleagues while ensuring precision in all AR operations."},
+    {id:3,image:keyboard,title:"Typing Speed",description: "Typing at 82 WPM with 95% accuracy helps me stay efficient in writing clean code, documentation, and professional communication — a skill that's valuable in fast-paced technical environments."},
+    {id:4,image:toolsbox,title:"Tools",description: "Comfortable using tools like Visual Studio Code, Postman, IntelliJ, and Microsoft Excel for development, debugging, and organizing data — supporting both learning and project execution."},
+    {id:5,image:atom,title:"React js",description:"I have hands-on experience building dynamic user interfaces with React, utilizing components, hooks, and state management to create responsive and efficient web applications."},
+    {id:6,image:tailwind_pic,title:"Tailwind css",description:"While still learning, I’ve used Tailwind CSS to style projects, appreciating its utility-first approach for quick prototyping and building custom designs."},
+    {id:7,image:nodejs_pic,title:"Node js",description:"I have practical experience with Node.js, focusing on server development and various file operations, laying the foundation for further growth in backend development."},
+    {id:48,image:java,title:"Java",description:"I’ve developed a strong understanding of Java fundamentals, including object-oriented principles, and have applied it to solve algorithmic problems and build small projects."},
+    ];
 
 const SkillBox=({image, title, description})=>(
   
@@ -42,22 +47,29 @@ export default function Skills() {
 />
         <div data-aos='fade-up' data-aos-delay='100' className='relative z-20 text-center space-y-6 sm:space-y-10 mt-15'>
           <header >
-            <h1 className='text-3xl sm:text-4xl font-bold'><span className='text-green-400'>My Skills</span> & <br/>Technical Journey</h1>
-            <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>Technologies explored and skills developed through hands-on projects, internships, and self-learning.</p>
+            <h1 className='text-3xl sm:text-4xl font-bold'><span className='text-green-400'>Skills</span> & <br/>Learning Journey</h1>
+            <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
+              Showcasing skills and experiences gained through projects, training, and professional work.
+              </p>
           </header>
-          <section data-aos="flip-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="500" className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4'>
-            {skillSet.map((skill)=>{
-              return (<SkillBox 
-                key={skill.id}
-                image={skill.image}
-                title={skill.title}
-                description={skill.description}
-                />);
-            })}
+          <div className='flex justify-center'>
+  <section
+    data-aos="flip-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="500"
+    className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4'
+  >
+    {skillSet.map((skill) => (
+      <SkillBox
+        key={skill.id}
+        image={skill.image}
+        title={skill.title}
+        description={skill.description}
+      />
+    ))}
+  </section>
+</div>
 
-          </section>
         </div>
 
         <img 
