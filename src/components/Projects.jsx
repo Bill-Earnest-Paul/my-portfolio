@@ -101,7 +101,9 @@ export default function Projects() {
         </section>
         <section>
             <header className='text-center'>
-            <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>These projects showcase the skills and practical experience I gained through hands-on work, problem-solving, and project execution.</p>
+            <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
+                This portfolio reflects my journey of learning and practical experience. Skills developed through projects, training, and hands-on work continue to support my professional growth.
+            </p>
             </header>
         </section>
     </main>

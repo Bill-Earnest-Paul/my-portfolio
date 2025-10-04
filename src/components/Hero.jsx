@@ -24,8 +24,8 @@ export default function Hero() {
       </h2>
     </header>
     <p className='text-base sm:text-lg md:text-gray-200 mb-6'>
-      From technical exploration to healthcare operations.
-“Welcome! Explore my journey from college projects and technical learning to my current role in Accounts Receivable (AR) at Infinx Healthcare.”</p>
+      Welcome! Explore my journey from college projects and technical learning to hands-on professional experience, building skills along the way.
+      </p>
     <div className='flex items-center space-x-4 mb-6'>
       <a href="https://www.linkedin.com/in/bill-earnest/" target='_blank' className="transition-transform duration-300 hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(34,139,34,0.6)]">
         <img src={linkedin} alt="linkedin" className="w-11 h-11" />
